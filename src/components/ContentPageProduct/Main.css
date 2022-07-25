@@ -1,0 +1,25 @@
+.breadcrumbs {
+    min-height: 40px;
+  }
+  @media (max-width: 992px) {
+    .breadcrumbs {
+      margin-top: 66px;
+    }
+  }
+  .breadcrumbs ol {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+  }
+  .breadcrumbs ol li a {
+    color: #5cb874;
+  }
+  .breadcrumbs ol li + li {
+    padding-left: 10px;
+  }
+  .breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+  }
