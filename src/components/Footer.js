@@ -1,17 +1,17 @@
-import { Row, Col,List  } from "reactstrap";
+import { Row, Col, List } from "reactstrap";
 import { Typography } from "@mui/material";
 import "font-awesome/css/font-awesome.min.css";
 import { Container } from "react-bootstrap";
-import logo from '../assets/image/logo/NgoiNhaXinhlogo3.png'
+import logo from "../assets/image/logo/NgoiNhaXinhlogo3.png";
 export default function Footer() {
   return (
     <Container
       fluid
       className="text-center"
-      style={{ backgroundColor: "black",color:'white', marginTop: "100px" }}
+      style={{ backgroundColor: "black", color: "white", marginTop: "100px" }}
     >
       <Row>
-        <Col style={{marginTop:'60px',marginLeft:'100px' }}>
+        <Col style={{ marginTop: "60px", marginLeft: "100px" }}>
           <Typography variant="h6" gutterBottom mt={5}>
             <b>Product</b>
           </Typography>
@@ -23,9 +23,9 @@ export default function Footer() {
             <li>Order Status</li>
           </List>
         </Col>
-        <Col style={{marginTop:'60px',marginLeft:'100px' }}>
+        <Col style={{ marginTop: "60px", marginLeft: "100px" }}>
           <Typography variant="h6" gutterBottom mt={5}>
-          <b>Service</b>
+            <b>Service</b>
           </Typography>
           <List type="unstyled">
             <li>Help Center</li>
@@ -35,9 +35,9 @@ export default function Footer() {
             <li>Order Status</li>
           </List>
         </Col>
-        <Col style={{marginTop:'60px',marginLeft:'100px'}}>
+        <Col style={{ marginTop: "60px", marginLeft: "100px" }}>
           <Typography variant="h6" gutterBottom mt={5}>
-          <b>Support</b>
+            <b>Support</b>
           </Typography>
           <List type="unstyled">
             <li>Help Center</li>
@@ -47,9 +47,15 @@ export default function Footer() {
             <li>Order Status</li>
           </List>
         </Col>
-        <Col style={{ marginBottom: "50px",marginTop:'30px' }} md={5}>
-        <div><img style={{width:'180px'}} src={logo} alt='logo-ngoi-nha-xinh'/></div>
-          <Typography variant="h4" gutterBottom >
+        <Col style={{ marginBottom: "50px", marginTop: "30px" }} md={5}>
+          <div>
+            <img
+              style={{ width: "180px" }}
+              src={logo}
+              alt="logo-ngoi-nha-xinh"
+            />
+          </div>
+          <Typography variant="h4" gutterBottom>
             <b>Ngôi Nhà Xinh</b>
           </Typography>
           <div className="m-2">
@@ -77,7 +83,7 @@ export default function Footer() {
             </a>
           </div>
           <small>
-            <b>Powered by DEVCAMP</b>
+            <b>Powered by DEVCAMPfff</b>
           </small>
         </Col>
       </Row>
